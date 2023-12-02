@@ -1,0 +1,216 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #50C878;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  
+  li {
+    float: left;
+    padding-left: 20px;
+    
+  }
+  
+  li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #0E4732;
+    border-radius: 25px;
+    font-family: 'PT Serif', serif;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #77dd77;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  body{
+    background-color: #98fb98;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: 'PT Serif', serif;
+  }
+  .opening-page{
+    display:flex;
+    padding-bottom: 100px;
+  }
+  .welcome-text{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+    font-family: 'PT Serif', serif;
+    color: #154734;
+    font-size: 24px;
+  }
+  .welcome-text h1{
+    font-size: 48px;
+  }
+  .welcome-text p{
+    padding-right: 100px;
+  }
+  .opening-pic{
+    border-radius: 50%;
+    padding-left: 100px;
+    padding-top: 150px;
+    padding-right: 200px;
+  }
+  nav{
+    position: sticky;
+    top: 0px;
+  }
+  .about-me-heading{
+    color: #154734;
+    font-family: 'PT Serif', serif;
+    font-size: 48px;
+    padding-left: 350px;
+  }
+  .semi-transparent-box {
+
+    width: 1000px;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.3); /* R, G, B, Alpha */
+    padding: 10px;
+    
+    margin: 50px auto;
+    border-radius:25px;
+  }
+  #about{
+    padding-top: 70px;
+  }
+  #projects{
+    padding-top: 70px;
+  }
+  .about-me-content{
+    padding-left: 75px;
+    padding-bottom: 50px;
+  }
+  .project-heading{
+    color: #154734;
+    font-family: 'PT Serif', serif;
+    font-size: 42px;
+    padding-left: 600px;
+  }
+  .project-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+    margin: 20px;
+}
+.semi-transparent-box-project{
+    /* Basic styling */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3); /* R, G, B, Alpha */
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    border-radius:25px;
+    margin-left: 10px;
+
+    /* Flex grow, shrink, and basis */
+    flex: 1; /* Equivalent to "flex: 1 1 auto" */
+    /* flex-grow: 1;  flex-shrink: 1;  flex-basis: auto; */
+}
+.p-heading{
+  padding-left: 165px;
+  color: #154734;
+}
+.p-desc{
+  font-family: 'Roboto', sans-serif;
+  color: #154734;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  background-color: #50C878;
+  color: #154734;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.contact-text{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 50px;
+  font-family: 'PT Serif', serif;
+  color: #154734;
+  font-size: 48px;
+}
+.social-heading{
+  padding-left: 100px;
+  padding-right: 50px;
+  font-family: 'PT Serif', serif;
+  color: #154734;
+  font-size: 48px;
+}
+
+.contact-info{
+  padding-left: 150px;
+  font-family: 'PT Serif', serif;
+  color: #154734;
+  font-size: 30px;
+  text-decoration: none;
+}
+.contact-info-email{
+  padding-left: 10px;
+  font-family: 'PT Serif', serif;
+  color: #154734;
+  font-size: 30px;
+  text-decoration: none;
+}
+.social-links{
+  padding-left: 160px;
+  font-family: 'PT Serif', serif;
+  color: #154734;
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 100px;
+}
+#skills{
+  padding-top: 100px;
+}
+.skills-semi-transparent-box{
+    width: 1000px;
+    height: 650px;
+    background-color: rgba(255, 255, 255, 0.3); /* R, G, B, Alpha */
+    padding: 10px;
+    
+    margin: 50px auto;
+    border-radius:25px;
+}
+.technical-skills-heading{
+  padding-left: 100px;
+  padding-bottom: 50px;
+  color: #154734;
+  font-size: 40px;
+}
+.icons{
+  padding-left:20px;
+  padding-bottom: 70px;
+}
+
+.coding-profile-heading{
+  padding-left: 100px;
+  padding-right: 50px;
+  font-family: 'PT Serif', serif;
+  color: #154734;
+  font-size: 40px;
+  margin-top: 0;
+}
+.icons-coding{
+  padding-left:20px;
+  padding-bottom: 70px;
+  padding-top:40px;
+}
